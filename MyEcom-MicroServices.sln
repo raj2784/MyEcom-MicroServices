@@ -9,13 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCatalog", "ProductCa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog.API", "Services\ProductCatalog\ProductCatalog.API\ProductCatalog.API.csproj", "{89AAAC0B-915C-4D36-8DF3-54C1BDD9C422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.BusinessObject", "ProductCatalog.BusinessObject\ProductCatalog.BusinessObject.csproj", "{88EF8B21-8A27-4491-A8A9-1C55FEEBBDF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog.BusinessObject", "ProductCatalog.BusinessObject\ProductCatalog.BusinessObject.csproj", "{88EF8B21-8A27-4491-A8A9-1C55FEEBBDF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.Repositories", "ProductCatalog.Repositories\ProductCatalog.Repositories.csproj", "{6E6A0BC7-8D99-48B6-A291-F1838B18E1B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog.Repositories", "ProductCatalog.Repositories\ProductCatalog.Repositories.csproj", "{6E6A0BC7-8D99-48B6-A291-F1838B18E1B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.EFRepositories", "ProductCatalog.EFRepositories\ProductCatalog.EFRepositories.csproj", "{2FB8C7AC-0F7C-4283-8518-A1CD744571E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog.EFRepositories", "ProductCatalog.EFRepositories\ProductCatalog.EFRepositories.csproj", "{2FB8C7AC-0F7C-4283-8518-A1CD744571E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.Domain", "ProductCatalog.Domain\ProductCatalog.Domain.csproj", "{ACE5090C-E9F7-4BEB-984C-967092277AA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog.Domain", "ProductCatalog.Domain\ProductCatalog.Domain.csproj", "{ACE5090C-E9F7-4BEB-984C-967092277AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebClients", "WebClients", "{0A5CFBA0-A0A0-42A7-930A-99213B824E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebApp", "WebClients\MVCWebApp\MVCWebApp.csproj", "{ADB62937-EA10-4F9F-A2A3-E929D831F848}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{ACE5090C-E9F7-4BEB-984C-967092277AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE5090C-E9F7-4BEB-984C-967092277AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE5090C-E9F7-4BEB-984C-967092277AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB62937-EA10-4F9F-A2A3-E929D831F848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB62937-EA10-4F9F-A2A3-E929D831F848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB62937-EA10-4F9F-A2A3-E929D831F848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB62937-EA10-4F9F-A2A3-E929D831F848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,7 @@ Global
 		{6E6A0BC7-8D99-48B6-A291-F1838B18E1B0} = {CB84CE97-AB06-4050-B351-3A9B85DF0D98}
 		{2FB8C7AC-0F7C-4283-8518-A1CD744571E8} = {CB84CE97-AB06-4050-B351-3A9B85DF0D98}
 		{ACE5090C-E9F7-4BEB-984C-967092277AA4} = {CB84CE97-AB06-4050-B351-3A9B85DF0D98}
+		{ADB62937-EA10-4F9F-A2A3-E929D831F848} = {0A5CFBA0-A0A0-42A7-930A-99213B824E60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D07603C-BCA4-4C7E-8C16-EDF52C46CA5F}

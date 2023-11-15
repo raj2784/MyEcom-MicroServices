@@ -11,7 +11,7 @@ using ProductCatalog.Domain;
 
 namespace ProductCatalog.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class CatalogItemsController : ControllerBase
     {
